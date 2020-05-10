@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+.center{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    color: white;
+}
+
+.center h1{
+    padding: 10px;
+}
+
+.header{
+    width: 100%;
+    padding: 0 2%;
+    height: 60px;
+    background-color: rgb(33, 35, 67);
+}
+
+.container-banner{
+    width: 100%;
+    padding: 0 2%;
+    height: 557px;
+    background-image: url(../image/header_bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.container-banner > .center{
+    height: 100%;
+}
+
+.form{  
+    padding: 20px;
+    width: 400px;
+    padding: 10px;
+    height: calc(100% + 30px);
+    float: right;
+    position: relative;
+    top: -15px;
+    border-color: rgba(120, 120, 120,0.5);
+    border-style: solid;
+    border-width: 12px;
+    background-color: white;
+    background-clip: padding-box;
+}
+
+.form h2, .warning{
+    font-weight: normal;
+    color: #999999;
+    font-size: 20px;
+    margin: 20px;
+    text-align: justify;
+}
+
+.input-container {
+    margin-left: 10px; 
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.input-container span{
+    display: inline-block;
+    width: 100%;
+    color: #bbbbbb;
+    font-size: 17px;
+}
+
+.input-container input[type=text]{
+    width: 344px;
+    margin-top: 8px;
+    height: 60px;
+    border: 1px solid #ccc;
+}
+
+.warning{
+    margin: auto 20px;
+    margin-bottom: 10px;
+}
+
+
+.submit{
+    background-color:  #323665;
+    width: 180px;
+    height: 56px;
+    font-size: 20px;
+    color: white;
+    margin-left: 100px;
+    border: 0px;
+    cursor: pointer;
+    box-shadow: 3px 3px 2px 3px grey;
+    border-bottom: 3px solid #4A5097;
+    transition-delay: 0.2s;
+}
+
+.submit:hover{
+    background-color:  rgb(33, 35, 67);;
+}
+
+.list{
+    margin-top: 40px;
+    float: left;
+    width: 619px;
+    height: 270px;
+    background-color: rgba(33, 35, 67, 0.7);
+}
+
+.list ul{
+    list-style-position: inside;
+    margin: 30px;
+    margin-top: 50px;
+}
+
+.list ul li{
+    margin-top: 18px;
+    color: white;
+}
+
+.information{
+    padding: 40px 2%;
+    background-color: #dddddd;
+    text-align: center;
+
+}
+
+.information h2{
+    color: #462663;
+    font-weight: normal;
+}
+
+.information p{
+    color: #462663;
+    width: 100%;
+    max-width: 768px;
+    margin: 15px 0;
+    display: inline-block;
+    text-align: justify;
+}
+
+.arrow{
+    position: relative;
+    top: 60px;
+    left: 50%;
+    margin-left: -20px;
+    width: 40px;
+    height: 40px;
+    background-image: url(../image/arrow.png);
+    background-size: 100% 100%;
+}
+
+.section2{
+    padding: 90px 2%;
+}
+
+.section2 h2{
+    text-align: center;
+    color: #462663;
+    font-weight: normal;
+}
+
+.container-section{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.container-single{
+    float: left;
+    width: 33.3%;
+}
+
+.container-single p{
+    padding: 10px 25px;
+    text-align: justify;
+    display: inline-block;
+}
+
+.clear{
+    clear: both;
+}
+
+.footer{
+    padding: 20px 0;
+    border-top: 2px solid #888888;
+    text-align: center;
+    color: #888;
+
+
+}
+
+.footer p{
+    margin-top: 8px;
+}
+
+@media screen and (max-width: 1024px) {
+    .header{
+        height: auto;
+        width: 100%;
+        padding: 15px 2%;
+        text-align: center;
+
+    }
+
+    .container-banner{
+        width: 100%;
+        padding: 40px 2%;
+        height: auto;
+        text-align: center;
+    }
+
+    .form{
+        max-width: 400px;
+        width: 60%px;
+        padding: 10px;
+        height: 100%;
+        float: right;
+        top: 0;
+    }
+
+    .list{
+        padding: 30px 0;
+        width: 40%;
+        display: inline-block;
+        float: left;
+        max-width: 500px;
+        height: auto;
+    }
+
+    input-container input[type=text]{
+        width: 100%;
+        height: 60px;
+    }
+      
+    .submit{
+        max-width: 180px;
+        height: 56px;
+        width: 100%;
+        
+        
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .list{
+        margin-top: 0;
+        float: none;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .form{
+        float: none;
+        display: inline-block;
+        width: 90%;
+        margin-top: 30px;
+    }
+
+    .container-single{
+        float: none;
+        display: inline-block;
+        width: 100%;
+        max-width: 600px;
+        padding: 30px 0;
+    }
+}
