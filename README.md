@@ -14,7 +14,6 @@ Projeto simples que criei para aplicar o aprendizado sobre o desenvolvimento web
 - [x] Site responsivo
 - [x] CSS3
 - [x] HTML5
-- [] Javascript
 
 
 ## How to run
